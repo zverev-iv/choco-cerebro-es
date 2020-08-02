@@ -18,6 +18,7 @@
     <tags>cerebro-es cerebro elasticsearch web admin elk</tags>
     <summary>elasticsearch web admin tool</summary>
     <description>cerebro is an open source(MIT License) elasticsearch web admin tool built using Scala, Play Framework, AngularJS and Bootstrap.</description>
+    <releaseNotes>https://github.com/lmenezes/cerebro/releases</releaseNotes>
     <dependencies>
       <dependency id="adoptopenjdk11jre" version="11.0.8.11"/>
     </dependencies>
