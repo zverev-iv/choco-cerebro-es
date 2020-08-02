@@ -10,7 +10,7 @@
     <title>cerebro-es (Install)</title>
     <authors>Leonardo Menezes</authors>
     <projectUrl>https://github.com/lmenezes/cerebro</projectUrl>
-    <iconUrl>https://cdn.statically.io/gh/zverev-iv/choco-cerebro-es/master/cerebro-es/cerebro-es.png</iconUrl>
+    <iconUrl>https://cdn.statically.io/gh/zverev-iv/choco-cerebro-es/d7ea2ef2/cerebro-es/cerebro.png</iconUrl>
     <copyright>2020 Leonardo Menezes</copyright>
     <licenseUrl>https://cdn.statically.io/gh/lmenezes/cerebro/7a3815d8/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -18,6 +18,7 @@
     <tags>cerebro-es cerebro elasticsearch web admin elk</tags>
     <summary>elasticsearch web admin tool</summary>
     <description>cerebro is an open source(MIT License) elasticsearch web admin tool built using Scala, Play Framework, AngularJS and Bootstrap.</description>
+    <releaseNotes>https://github.com/lmenezes/cerebro/releases</releaseNotes>
     <dependencies>
       <dependency id="adoptopenjdk11jre" version="11.0.8.11"/>
     </dependencies>
