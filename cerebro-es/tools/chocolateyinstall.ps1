@@ -9,4 +9,4 @@ $packageArgs["unzipLocation"] = "$(Split-Path -parent $MyInvocation.MyCommand.De
 
 Install-ChocolateyZipPackage @packageArgs
 
-Install-BinFile -Name "cerebro" -Path (Join-Path $packageArgs["unzipLocation"] (Join-Path "cerebro-$($env:ChocolateyPackageVersion)" (Join-Path "bin" "cerebro.bat")))
+Install-BinFile -Name $packageArgs["binFile"] -Path (Join-Path $packageArgs["unzipLocation"] (Join-Path "cerebro-$($env:ChocolateyPackageVersion)" (Join-Path "bin" "cerebro.bat")))
