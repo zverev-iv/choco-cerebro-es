@@ -1,9 +1,4 @@
-﻿$ErrorActionPreference = 'Stop';
+﻿$AppDir = "$(Join-Path $env:APPDATA $env:ChocolateyPackageName)"
+Remove-Item -LiteralPath $AppDir -Force -Recurse
 
-$meta = Get-Content -Path $env:ChocolateyPackageFolder\tools\packageArgs.json -Raw
-$packageArgs = @{}
-(ConvertFrom-Json $meta).psobject.properties | ForEach-Object { $packageArgs[$_.Name] = $_.Value }
-
-$packageArgs["packageName"] = $env:ChocolateyPackageName
-
-Remove-BinFile $packageArgs["binFile"]
+nssm.exe remove cerebro confirm

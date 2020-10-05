@@ -21,6 +21,7 @@
     <releaseNotes>https://github.com/lmenezes/cerebro/releases</releaseNotes>
     <dependencies>
       <dependency id="adoptopenjdk11jre" version="11.0.8.11"/>
+      <dependency id="nssm" version="2.24.101.20180116"/>
     </dependencies>
   </metadata>
   <files>
